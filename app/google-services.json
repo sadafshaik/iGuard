@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "981597458506",
+    "project_id": "firebase-iguardapp"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:981597458506:android:e64c35b6468ff440",
+        "android_client_info": {
+          "package_name": "com.sadaf.iguardapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "981597458506-csup4ncc8rskavcvk6n67nljq6j2jgpq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sadaf.iguardapp",
+            "certificate_hash": "95a07a4e26055e5aef72f8d0fd2c48f123ae5367"
+          }
+        },
+        {
+          "client_id": "981597458506-dgrcoi71so948fbbas9299stuars5atp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB44sb3gKRVnzImrYpHfn6a6I_drFLX_z4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
