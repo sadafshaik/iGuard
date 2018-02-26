@@ -2,8 +2,6 @@
 
 This is a simple project showing how to use the Clarifai API in Android. It uses the [Clarifai Java Client](https://github.com/Clarifai/clarifai-java) to perform Concept recognition.
 
-<img src="http://i.imgur.com/D782NYS.png" />
-
 ## Building and Running
 
 To set your environment up for Android development, you'll need to install the
