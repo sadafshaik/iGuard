@@ -1,9 +1,9 @@
-package com.sadaf.iguardapp;
+package com.clarifai.android.starter.api.v2;
 
 import android.content.Intent;
+import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
@@ -11,6 +11,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
+import com.clarifai.android.starter.api.v2.activity.RecognizeConceptsActivity;
 import com.google.android.gms.auth.api.Auth;
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
 import com.google.android.gms.auth.api.signin.GoogleSignInApi;
@@ -21,6 +22,7 @@ import com.google.android.gms.common.SignInButton;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.common.api.ResultCallback;
 import com.google.android.gms.common.api.Status;
+
 
 public class LoginActivity extends AppCompatActivity implements View.OnClickListener, GoogleApiClient.OnConnectionFailedListener{
 
@@ -132,11 +134,15 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
     private void updateUI(boolean isLoggedIn){
         // Checking if the user successfully logged in
         if(isLoggedIn){
+              startImageAnalysis();
             Profile_Section.setVisibility(View.VISIBLE);
             SignIn.setVisibility(View.GONE);
+            App_Logo.setVisibility(View.GONE);
+//            startImageAnalysis();
         }
         else{
             Profile_Section.setVisibility(View.GONE);
+            App_Logo.setVisibility(View.VISIBLE);
             SignIn.setVisibility(View.VISIBLE);
         }
     }
@@ -150,5 +156,12 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
             GoogleSignInResult result = Auth.GoogleSignInApi.getSignInResultFromIntent(data);
             handleResult(result);
         }
+    }
+
+    public void startImageAnalysis() {
+        Intent myIntent = new Intent(this, RecognizeConceptsActivity.class);
+        myIntent.putExtra("googleID", "Stark");
+        startActivity(myIntent);
+
     }
 }

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.sadaf.iguardapp.LoginActivity">
+    tools:context="com.clarifai.android.starter.api.v2.LoginActivity">
 
     <LinearLayout
         android:id="@+id/app_logo"
