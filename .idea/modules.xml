@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/clarifai-android-starter.iml" filepath="$PROJECT_DIR$/clarifai-android-starter.iml" />
+      <module fileurl="file://C:\Users\Stark\Desktop\Happy\iGuard\app\app.iml" filepath="C:\Users\Stark\Desktop\Happy\iGuard\app\app.iml" />
+      <module fileurl="file://C:\Users\Stark\Desktop\Happy\iGuard\clarifai-android-starter.iml" filepath="C:\Users\Stark\Desktop\Happy\iGuard\clarifai-android-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/iGuard.iml" filepath="$PROJECT_DIR$/iGuard.iml" />
     </modules>
   </component>
 </project>

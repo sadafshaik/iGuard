@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "411532265135",
-    "project_id": "iguardv2"
+    "project_number": "458573784912",
+    "project_id": "iguardandroidapp"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:411532265135:android:d5ec02686d3eff5c",
+        "mobilesdk_app_id": "1:458573784912:android:d5ec02686d3eff5c",
         "android_client_info": {
           "package_name": "com.clarifai.android.starter.api.v2"
         }
       },
       "oauth_client": [
         {
-          "client_id": "411532265135-c98p8pm35deahheq8f63mcm3fieb8995.apps.googleusercontent.com",
+          "client_id": "458573784912-dqj37gr1ekrch9fpivsb9qbccf0pge53.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "458573784912-ilmevlsv36a5h6jai1kf5bh90q4p0c7p.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.clarifai.android.starter.api.v2",
-            "certificate_hash": "95a07a4e26055e5aef72f8d0fd2c48f123ae5367"
+            "certificate_hash": "9a4d0d4b08babb25e7183271aa52a0ba33db44b4"
           }
-        },
-        {
-          "client_id": "411532265135-09u6ea53p7up4rtv21h2akf469s6nm4v.apps.googleusercontent.com",
-          "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDOFWGSYM92JBHrlk7fRFipM1e2j6KUj_Q"
+          "current_key": "AIzaSyBFIfjU4NZ1Xox1xB-YYYD0oHuch3QGt5g"
         }
       ],
       "services": {
