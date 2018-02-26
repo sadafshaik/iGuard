@@ -10,7 +10,7 @@ Replace `YOUR_API_KEY_HERE` with your [Clarifai API Key](http://blog.clarifai.co
 
 This project will compile in the standard manner through Android Studio or `./gradlew clean build` in your terminal.
 
-# Dependencies
+## Dependencies
 - ClarifAI API
 - Firebase API
 
