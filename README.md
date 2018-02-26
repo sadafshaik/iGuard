@@ -1,5 +1,7 @@
 # iGuardApp
-This project is intended to perform Psycho-Analysis on the captured image. It uses the [Clarifai Java Client](https://github.com/Clarifai/clarifai-java) to perform Concept recognition.
+This project is intended to perform Psycho-Analysis on the captured image. The confidence scores of the AI model are recorded over a period of time using Firebase. Finally, Graphical outputs in the form of charts are produced to help the user easily understand his/her Mental Health!
+
+It uses the [Clarifai Java Client](https://github.com/Clarifai/clarifai-java) to perform Concept recognition.
 
 ## Building and Running
 To set your environment up for Android development, you'll need to install the
